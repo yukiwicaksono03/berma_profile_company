@@ -1,6 +1,6 @@
 <div class="container" style="margin-top: 200px; margin-bottom: 200px">
     <p class="fw-bold text-center fs-2 mb-3">
-        Our Best Menu
+        Our Core Services
     </p>
     <p class="text-center fs-6 mb-5">
         {{ $master->desc_our_menu_home }}

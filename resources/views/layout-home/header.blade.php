@@ -70,8 +70,7 @@
                     </p>
 
                     <div class="d-flex gap-2">
-                        <a href="/menu" class="btn btn-green">Menu</a>
-                        <a href="/event" class="btn btn-green">Event</a>
+                        <a href="/menu" class="btn btn-green">Core Services</a>
                     </div>
                 </div>
             </div>

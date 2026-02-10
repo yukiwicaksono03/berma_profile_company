@@ -44,9 +44,11 @@ class HomeController extends Controller
 
     public function menu_detail($id)
     {
+        $master = Master::latest()->first();
         $menu = Menu::findOrFail($id);
         // dd($menu);
         return view('menu_detail', [
+            'master' => $master,
             'menu' => $menu
         ]);
     }

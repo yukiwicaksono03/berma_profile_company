@@ -1,28 +1,19 @@
-
+@extends('layouts.main')
 @section('main')
 <div class="container" style="margin-top: 100px; margin-bottom: 200px">
     <p class="fw-bold text-center fs-2">
-        Our Menu
+        {{ $menu->name }}
     </p>
     <div class="row d-flex justify-content-center gap-3 align-items-stretch">
-            <div class="p-0 col-lg-3">
-                <div class="card"style="cursor:pointer" >
-                    <div class="ratio ratio-4x3">
+            
+                    <div class="ratio ratio-4x3" style="width:50%">
                         <img src="{{ asset('storage/'.$menu->path) }}"
                             class="rounded"
                             style="width:100%; height:100%; object-fit:cover;"
                             alt="foto menu" >
                     </div>
-                    <div class="p-3 mt-1">
-                        <p class="fs-5 text-center fw-bold">{{ $menu->name }}</p>
-                        <p class="fs-6 text-center">
-                            {{ rupiah($menu->price) }}
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                Tidak ada menu tersedia.
+            <div class="text-center" style="text-wrap:auto; width:70%;">
+                {!! $menu->desc !!}
             </div>
         
     </div>
@@ -58,5 +49,4 @@
         </div>
     </div>
 </div>
-
 @endsection

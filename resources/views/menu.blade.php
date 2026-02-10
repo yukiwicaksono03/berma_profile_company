@@ -2,7 +2,7 @@
 @section('main')
 <div class="container" style="margin-top: 100px; margin-bottom: 200px">
     <p class="fw-bold text-center fs-2">
-        Our Menu
+        Our Core Services
     </p>
     <p class="text-center fs-6 mb-5">
         {{ $master->desc_our_menu }}
@@ -34,9 +34,9 @@
                     </div>
                     <div class="p-3 mt-1">
                         <p class="fs-5 text-center fw-bold">{{ $item->name }}</p>
-                        <p class="fs-6 text-center">
+                        {{-- <p class="fs-6 text-center">
                             {{ rupiah($item->price) }}
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
             </div>

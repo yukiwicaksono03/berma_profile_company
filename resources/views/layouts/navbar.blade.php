@@ -29,12 +29,12 @@
                     </li>
 
                     <li class="nav-item fs-5">
-                        <a class="nav-link {{ Request::is('menu') ? 'active' : '' }}" href="/menu">Menu</a>
+                        <a class="nav-link {{ Request::is('menu') ? 'active' : '' }}" href="/menu">Core Services</a>
                     </li>
 
-                    <li class="nav-item fs-5">
+                    {{-- <li class="nav-item fs-5">
                         <a class="nav-link {{ Request::is('event') ? 'active' : '' }}" href="/event">Event</a>
-                    </li>
+                    </li> --}}
 
                     {{-- <li class="nav-item fs-5">
                         <a class="nav-link {{ Request::is('store') ? 'active' : '' }}" href="/store">Store</a>

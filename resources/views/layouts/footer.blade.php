@@ -36,9 +36,18 @@
                     </a>
                 </p>
                 <p class="fs-6">
-                    <a target="_blank" href="{{ whatsapp_url($master->whatsapp) }}" class="text-white text-decoration-none">
-                        <i class="fab fa-whatsapp me-2"></i> Whatsapp
+                    <a target="_blank" href="mailto:someone@example.com" class="text-white text-decoration-none">
+                        <i class="fa fa-envelope"></i>&nbsp; bermayuniar@bermayuniar.com
                     </a>
+                    <br>
+                    <a target="_blank" href="mailto:someone@example.com" class="text-white text-decoration-none">
+                        <i class="fa fa-envelope"></i>&nbsp; yoga.yuniarto@bermayuniar.com
+                    </a>
+                    <br>
+                    <a target="_blank" href="mailto:someone@example.com" class="text-white text-decoration-none">
+                        <i class="fa fa-envelope"></i>&nbsp; marina.d@bermayuniar.com
+                    </a>
+
                 </p>
             </div>
         </div>

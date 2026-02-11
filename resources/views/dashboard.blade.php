@@ -448,9 +448,23 @@
                         
                         <div class="col-12">
                             <div class="form-group">
-                                <label class="form-control-label">Foto Sejarah</label>
-                                <input type="file" name="foto_sejarah" class="form-control">
-                                <img src="{{ asset('storage/'.$master->foto_sejarah) }}" class="w-50 mt-3" data-aos="fade-up">
+                                <label class="form-control-label">Foto Sejarah 1</label>
+                                <input type="file" name="foto_sejarah_1" class="form-control">
+                                <img src="{{ asset('storage/'.$master->foto_sejarah_1) }}" class="w-50 mt-3" data-aos="fade-up">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label class="form-control-label">Foto Sejarah 2</label>
+                                <input type="file" name="foto_sejarah_2" class="form-control">
+                                <img src="{{ asset('storage/'.$master->foto_sejarah_2) }}" class="w-50 mt-3" data-aos="fade-up">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label class="form-control-label">Foto Sejarah 3</label>
+                                <input type="file" name="foto_sejarah_3" class="form-control">
+                                <img src="{{ asset('storage/'.$master->foto_sejarah_3) }}" class="w-50 mt-3" data-aos="fade-up">
                             </div>
                         </div>
                         <div class="col-12">

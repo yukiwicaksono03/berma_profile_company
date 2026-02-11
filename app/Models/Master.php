@@ -14,7 +14,9 @@ class Master extends Model
         'greating_home_3',
         'visi',
         'misi',
-        'foto_sejarah',
+        'foto_sejarah_1',
+        'foto_sejarah_2',
+        'foto_sejarah_3',
         'sejarah',
 
         'desc_wahana',

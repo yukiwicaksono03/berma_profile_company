@@ -1,6 +1,6 @@
 <div class="container" style="margin-top: 200px; margin-bottom: 200px">
     <p class="fw-bold text-center fs-2 mb-5">
-        Visi & Misi Kami
+        Our Vision & Mission
     </p>
     <div class="row d-flex justify-content-evenly gap-3 align-items-stretch px-2">
         <div class="col-lg-5 card p-4">

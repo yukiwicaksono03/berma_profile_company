@@ -45,7 +45,9 @@ class DashboardController extends Controller
             'desc_event' => 'nullable|string',
             'desc_event_home' => 'nullable|string',
 
-            'foto_sejarah' => 'nullable|image|mimes:jpg,jpeg,webp|max:2048',
+            'foto_sejarah_1' => 'nullable|image|mimes:jpg,jpeg,webp|max:2048',
+            'foto_sejarah_2' => 'nullable|image|mimes:jpg,jpeg,webp|max:2048',
+            'foto_sejarah_3' => 'nullable|image|mimes:jpg,jpeg,webp|max:2048',
             'sejarah' => 'nullable|string',
             'visi' => 'nullable|string',
             'misi' => 'nullable|string',
@@ -73,12 +75,26 @@ class DashboardController extends Controller
             $data['foto_header'] = $filePath;
         }
 
-        if ($request->hasFile('foto_sejarah')) {
-            if ($master->foto_sejarah && Storage::disk('public')->exists($master->foto_sejarah)) {
-                Storage::disk('public')->delete($master->foto_sejarah);
+        if ($request->hasFile('foto_sejarah_1')) {
+            if ($master->foto_sejarah_1 && Storage::disk('public')->exists($master->foto_sejarah_1)) {
+                Storage::disk('public')->delete($master->foto_sejarah_1);
             }
-            $filePath = $request->file('foto_sejarah')->store('home', 'public');
-            $data['foto_sejarah'] = $filePath;
+            $filePath = $request->file('foto_sejarah_1')->store('home', 'public');
+            $data['foto_sejarah_1'] = $filePath;
+        }
+        if ($request->hasFile('foto_sejarah_2')) {
+            if ($master->foto_sejarah_2 && Storage::disk('public')->exists($master->foto_sejarah_2)) {
+                Storage::disk('public')->delete($master->foto_sejarah_2);
+            }
+            $filePath = $request->file('foto_sejarah_2')->store('home', 'public');
+            $data['foto_sejarah_2'] = $filePath;
+        }
+        if ($request->hasFile('foto_sejarah_3')) {
+            if ($master->foto_sejarah_3 && Storage::disk('public')->exists($master->foto_sejarah_3)) {
+                Storage::disk('public')->delete($master->foto_sejarah_3);
+            }
+            $filePath = $request->file('foto_sejarah_3')->store('home', 'public');
+            $data['foto_sejarah_3'] = $filePath;
         }
 
 

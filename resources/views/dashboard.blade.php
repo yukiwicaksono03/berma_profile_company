@@ -469,9 +469,9 @@
                         </div>
                         <div class="col-12">
                             <div class="form-group">
-                                <label class="form-control-label">Foto Sejarah 3</label>
-                                <input type="file" name="foto_sejarah_3" class="form-control">
-                                <img src="{{ asset('storage/'.$master->foto_sejarah_3) }}" class="w-50 mt-3" data-aos="fade-up">
+                                <label class="form-control-label">Foto Sejarah 4</label>
+                                <input type="file" name="foto_sejarah_4" class="form-control">
+                                <img src="{{ asset('storage/'.$master->foto_sejarah_4) }}" class="w-50 mt-3" data-aos="fade-up">
                             </div>
                         </div>
                         <div class="col-12">

@@ -18,5 +18,8 @@
         <div class="col-lg-6 mb-3">
             <img src="{{ asset('storage/'.$master->foto_sejarah_3) }}" class="w-100">
         </div>
+        <div class="col-lg-6 mb-3">
+            <img src="{{ asset('storage/'.$master->foto_sejarah_4) }}" class="w-100">
+        </div>
    </div>
 </div>

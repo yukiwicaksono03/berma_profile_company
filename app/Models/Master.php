@@ -17,6 +17,7 @@ class Master extends Model
         'foto_sejarah_1',
         'foto_sejarah_2',
         'foto_sejarah_3',
+        'foto_sejarah_4',
         'sejarah',
 
         'desc_wahana',

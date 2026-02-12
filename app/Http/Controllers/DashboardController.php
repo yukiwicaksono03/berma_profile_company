@@ -96,6 +96,13 @@ class DashboardController extends Controller
             $filePath = $request->file('foto_sejarah_3')->store('home', 'public');
             $data['foto_sejarah_3'] = $filePath;
         }
+        if ($request->hasFile('foto_sejarah_4')) {
+            if ($master->foto_sejarah_4 && Storage::disk('public')->exists($master->foto_sejarah_4)) {
+                Storage::disk('public')->delete($master->foto_sejarah_4);
+            }
+            $filePath = $request->file('foto_sejarah_4')->store('home', 'public');
+            $data['foto_sejarah_4'] = $filePath;
+        }
 
 
         $master->update($data);

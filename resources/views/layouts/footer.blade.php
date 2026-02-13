@@ -8,20 +8,10 @@
                 <p class="fs-6">
                     {{ $master->desc }}
                 </p>
-                <div class="d-flex gap-3">
-                    <a target="_blank" href="{{ $master->link_instagram }}" class="text-white">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a target="_blank" href="{{ $master->link_facebook }}" class="text-white">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a target="_blank" href="{{ $master->link_youtube }}" class="text-white">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a target="_blank" href="{{ $master->link_tiktok }}" class="text-white">
-                        <i class="fab fa-tiktok"></i>
-                    </a>
-                </div>
+                <p class="fs-6">
+                    Head Office : <br>
+                    Jl. Gebang Mas 1, B3 No 37B, Cakung, Jakarta Timur
+                </p>
                 <p class="fs-6 mt-3">
                     2026 &copy; Berma
                 </p>
